@@ -1,0 +1,237 @@
+/* Colors:  Location: #eaeaea   Menu box #f6f6f6  
+   purple: #9356DC   Pink: #FF79DA  LGreen #99E2D0
+
+
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+.loading{
+ position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.hideMe {
+   
+    -webkit-animation: cssAnimation 1s forwards; 
+    animation: cssAnimation 1s forwards;
+}
+@keyframes cssAnimation {
+       100% {width:0;
+        height:0;
+        visibility:hidden;}
+}
+@-webkit-keyframes cssAnimation {
+  
+    100% {width:0;
+        height:0;
+        visibility:hidden;}
+}
+.block-screen{
+     position:fixed;
+    padding:0;
+    margin:0;
+
+    top:0;
+    left:0;
+
+    width: 100%;
+    height: 100%;
+    background:rgba(255,255,255,.7);
+}
+.obj{
+    width: 7px;
+    height: 40px;
+    background: #9356DC;
+    margin: 0 4px;
+    border-radius: 10px;
+    animation: loading 1.0s infinite;
+    box-shadow: 0px 0px 1px 2px #99E2D0;
+    
+}
+.obj:nth-child(2){
+    animation-delay: 0.1s;
+}
+.obj:nth-child(3){
+    animation-delay: 0.2s;
+}
+.obj:nth-child(4){
+    animation-delay: 0.3s;
+}
+.obj:nth-child(5){
+    animation-delay: 0.4s;
+}
+.obj:nth-child(6){
+    animation-delay: 0.5s;
+}
+.obj:nth-child(7){
+    animation-delay: 0.6s;
+}
+.obj:nth-child(8){
+    animation-delay: 0.7s;
+}
+@keyframes loading{
+    0%{
+        height: 0%;
+    }
+    50%{
+        background-color: #FF79DA;
+        height: 40px;
+    }
+    100%{
+        background-color: #99E2D0;
+        height: 0;
+    }
+}
+.header{
+    padding: 1rem;
+    background: white;
+    box-shadow: 0 3px 20px -9px rgba(0,0,0,.5); /*fix this */
+}
+.header img{
+        display: block;
+    margin: 0 auto;
+    height: 2rem;
+    width: auto;
+}
+
+
+.location{
+    
+    text-align: center;
+    font-weight: 900;
+    padding: 1rem;
+    font-size: 20px;
+    background: #eaeaea 
+}
+.map-icon-format{
+    color:dimgray;
+    align-items: center;
+    padding-right: 2rem;
+}
+.main-menu-top{
+    background: #f6f6f6 ;
+    text-align: center;
+}
+
+.explore-button{
+    margin: 1rem;
+    padding: .75rem 1.5rem;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(#FF79DA, #9356DC);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 3px 20px -9px rgba(0,0,0,.5);;
+}
+.how-it-works-container{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    align-items: center;
+    
+}
+.how-it-works-button{
+    width: 300px;
+    height: 60px;
+    border: none;
+    background: #f2f2f2;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+    box-shadow: 0 3px 20px -9px rgba(0,0,0,.5);
+    text-align: left;
+    padding: 1rem;
+    
+}
+.how-it-works-icon-format{
+    color:dimgray;
+    align-items: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.button-numbers{
+    position: absolute;
+    margin-left: -27px;
+    margin-top: -4px;
+    color: #9356DC;
+    font-size: 22px;
+        
+}
+.button-numbers-text{
+    position: absolute;
+    margin-left: -20px;
+   font-weight: bold;
+    color: white;
+}
+.restaurants-container{
+    display: flex;
+    flex-direction: column;
+    background: #f2f2f2;
+    padding-bottom: 5rem;
+        
+}
+.restaurants-title{
+    padding: 4rem 1rem 0rem 1rem;
+}
+.restaurants-listings {
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 3px 20px -9px rgba(0,0,0,.5);
+	border-radius: 25px;
+	overflow: hidden;
+	text-decoration: none;
+	color: black;
+    margin: 0rem 1rem 2rem 1rem;
+}
+.restaurants-listings-crop {
+	height: 13rem;
+	object-fit: cover;
+	max-width: 100%;
+	width: 100%;
+	max-height: 100%;
+}
+.restaurants-listings-title{
+    margin: 1rem;
+}
+.restaurants-listings-description {
+	margin: 1rem;
+}
+.restaurants-listings a{
+    text-decoration: none;
+    color: black;
+}
+.restaurants-listings-heart{
+    color: gray;
+    padding-left: 10rem;
+    padding-top: .5rem;
+    font-size: 25px;
+    position: absolute;
+    
+}
+.footer-style{
+    color: #eaeaea;
+    background: #353535;
+    padding: 1rem;
+    
+}
+
+@media (min-width: 1280px){
+    .restaurants-container{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+}
+    .restaurants-listings {
+        height: 20rem;
+    }
+}
