@@ -222,7 +222,64 @@
     padding: 1rem;
     
 }
+.menu-container{
+    background-color: lightblue;
+    border-radius: 45px 25px 0 0;
+    margin-top: -50px;
+}
+.background-image {
+    background-image: url(/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 14rem;
+    max-height: 20rem;
+}
+.background-image img{
+    max-height: 10rem;
+}
 
+.restaurant-title{
+    padding: 1rem;
+}
+.menu-categories-title{
+    padding: 1rem;
+}
+.menu-categories-container{
+    display: flex;
+    flex-direction: column;
+    
+}
+.menu-item{
+    border-radius: 15px;
+    background-color: white;
+    margin: 1rem;
+    box-shadow: 0 3px 20px -4px rgba(0,0,0,.5);
+    
+}
+.menu-item-title{
+    font-weight: bold;
+    padding: 0 .5rem;
+    font-size: 16px;
+}
+.menu-description-and-price{
+    display: table;
+    width: 100%;
+}
+.menu-table{
+    display: table-row;
+}
+.menu-item-description{
+    display: table-cell;
+    padding: 0 .5rem ;
+    font-size: 14px;
+}
+.menu-item-price{
+    padding-right: .5rem;
+    display: table-cell;
+    font-size: 14px;
+    text-align: right;
+    font-weight: bold;
+}
 @media (min-width: 1280px){
     .restaurants-container{
     display: flex;
