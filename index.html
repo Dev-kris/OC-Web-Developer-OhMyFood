@@ -7,7 +7,7 @@
 	<meta name="OhMyFood, Restaurant Menus, Restaurant Ordering, Food Ordering, Preordering" content="HTML, CSS" >
     <meta name="viewport" content="width=device-width; initial-scale=1.0;">
 	<link href='css/style.css' id="size-stylesheet" rel='stylesheet' type='text/css'>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Robotodisplay=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/ce02317acd.js">
 	</script>
 </head>
@@ -30,13 +30,14 @@
  </div>
   <div class="location"><i class="fas fa-map-marker-alt map-icon-format"></i>Paris, Belleville</div>
   <div class="main-menu-top">
-      <h1>Book the menu you like </h1><br>
-      <p>Discover the top-of-the-art restaurants we picked for you.</p>
+      <h1 class="main-menu-top-title">Book the menu you like </h1><br>
+      <p class="main-menu-top-content">Discover the top-of-the-art restaurants we picked for you.</p>
       <button class="explore-button">Explore our restaurants</button>
   </div>
+  <h1 class="how-it-works-title">How it works</h1>
   <div class="how-it-works-container">
-      <h1>How it works</h1>
-      <button class="how-it-works-button"> <div class="button-numbers"><i class="fas fa-circle"></i> </div> <div class="button-numbers-text">1</div><i class="fas fa-mobile-alt how-it-works-icon-format"></i>Choose a restaurant</button>
+      
+      <button class="how-it-works-button"> <div class="button-numbers"><i class="fas fa-circle"></i> </div> <div class="button-numbers-text">1</div><i class="fas fa-mobile-alt how-it-works-icon-format"></i> Choose a restaurant</button>
       <button class="how-it-works-button"><div class="button-numbers"><i class="fas fa-circle"></i> </div> <div class="button-numbers-text">2</div><i class="fas fa-list-ul how-it-works-icon-format"></i>Create your menu</button>
       <button class="how-it-works-button"><div class="button-numbers"><i class="fas fa-circle"></i> </div> <div class="button-numbers-text">3</div><i class="fas fa-store how-it-works-icon-format"></i>Go enjoy it at the restaurant</button>
   </div>
@@ -55,7 +56,7 @@
 				<figure class="restaurants-listings-margin">
 					<img alt="." class="restaurants-listings-crop" src="images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg">
 					<figcaption>
-						<h3 class="restaurants-listings-title">The Full Palette</h3><i class="far fa-heart restaurants-listings-heart"></i>
+						<div class="restaurants-listings-title">The Full Palette<i class="far fa-heart restaurants-listings-heart"></i></div>
 					</figcaption>
 				</figure>
 				<p class="restaurants-listings-description">New York </p>
@@ -63,33 +64,33 @@
 				</a>
 			</article>
       <article class="restaurants-listings">
-				<a href="#">
+				<a href="/menu-enchanted-plate.html">
 				<figure class="restaurants-listings-margin">
-					<img alt="." class="restaurants-listings-crop" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg">
+					<img alt="." class="restaurants-listings-crop-center" src="images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg">
 					<figcaption>
-						<h3 class="restaurants-listings-title">The Enchanted Plate</h3>
+						<h3 class="restaurants-listings-title">The Enchanted Plate<i class="far fa-heart restaurants-listings-heart"></i></h3>
 					</figcaption>
 				</figure>
 				<p class="restaurants-listings-description">New York</p>
 				</a>
 			</article>
 			<article class="restaurants-listings">
-				<a href="#">
+				<a href="/menu-bastille.html">
 				<figure class="restaurants-listings-margin">
 					<img alt="." class="restaurants-listings-crop" src="images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg">
 					<figcaption>
-						<h3 class="restaurants-listings-title">Bastille</h3>
+						<h3 class="restaurants-listings-title">Bastille<i class="far fa-heart restaurants-listings-heart"></i></h3>
 					</figcaption>
 				</figure>
 				<p class="restaurants-listings-description">New York</p>
 				</a>
 			</article>
 			<article class="restaurants-listings">
-				<a href="#">
+				<a href="/menu-gourmand.html">
 				<figure class="restaurants-listings-margin">
 					<img alt="." class="restaurants-listings-crop" src="images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg">
 					<figcaption>
-						<h3 class="restaurants-listings-title">Le Gourmand</h3>
+						<h3 class="restaurants-listings-title">Le Gourmand<i class="far fa-heart restaurants-listings-heart"></i></h3>
 					</figcaption>
 				</figure>
 				<p class="restaurants-listings-description">New York</p>
@@ -99,10 +100,10 @@
    
 </body>
 <footer class="footer-style">
-    <h1>ohmyfood</h1>
+    <img class="footer-logo" src="/images/logo/ohmyfood.png" alt="Company Logo, Oh My Food">
     
-    <p>Suggest a restaurant</p>
-    <p>Become a partner</p>
+    <p><i class="fas fa-utensils footer-icon-fork"></i>Suggest a restaurant</p>
+    <p><i class="fas fa-hands-helping footer-icon"></i>Become a partner</p>
     <p>Legal</p>
     <p>Contact</p>
 </footer>
