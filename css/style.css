@@ -249,19 +249,6 @@
     -webkit-text-stroke: 1px #FF79DA;
 }
 
-
-.restaurants-listings-heart-inner:hover .restaurants-listings-heart {
-    float: right;
-     padding: 0 1rem;
-    font-weight: 900;
-    color: #f6f6f6 ;
-}
-.fa-stack:hover {
-    float: right;
-     padding: 0 1rem;
-    font-weight: 900;
-    color: red;
-}
 .footer-style {
 	color: #eaeaea;
 	background: #353535;
