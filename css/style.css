@@ -143,7 +143,7 @@
 .how-it-works-container {
 	display: flex;
 	flex-direction: column;
-	margin: 0rem .4rem 2rem 2rem;
+	margin: 0rem .7rem 2rem 2rem;
 	align-items: center;
 }
 .how-it-works-title{
@@ -237,26 +237,42 @@
 	color: black;
 }
 .restaurants-listings-heart {
+    color: transparent;
     float: right;
     padding: 0 1rem;
-    font-size: 35px;
-    font-weight: 900;
-    -webkit-text-stroke: 1px white;
+    font-size: 30px;
+    -webkit-text-stroke: 1px darkslategray ;
+    transition: color 0.5s ease-in;
 }
-.restaurants-listings-heart:hover{
+.restaurants-listings-heart:hover {
+    color: #FF79DA;
+    -webkit-text-stroke: 1px #FF79DA;
+}
+
+
+.restaurants-listings-heart-inner:hover .restaurants-listings-heart {
+    float: right;
+     padding: 0 1rem;
+    font-weight: 900;
+    color: #f6f6f6 ;
+}
+.fa-stack:hover {
+    float: right;
+     padding: 0 1rem;
+    font-weight: 900;
     color: red;
 }
 .footer-style {
 	color: #eaeaea;
 	background: #353535;
-	padding: 1rem;
-    font-size: 17px;
-    line-height: 28px;
+	padding: 2rem;
+    font-size: 20px;
+    line-height: 33px;
 }
 .footer-logo{
     -webkit-filter: invert(1);
     height: 10%;
-    width: 25%;
+    width: 30%;
     padding: 1rem 0rem 1rem 0rem;
 }
 .footer-icon{
