@@ -12,7 +12,7 @@ The majority of this site used flexbox and responsive versions used a combinatio
 Specifically, this website needed to include animations and effects that are typically accomplished by simple JS.
 <img align="right" src="https://raw.githubusercontent.com/Dev-kris/OC-Web-Developer-OhMyFood/main/images/site-animations.gif">
 ### Animations
-##### 1. Loading screen upon initial site load/refresh and when navigating to each page.
+##### 1. Loading screen and loading bars.
   This is a proof-of-concept element that partially obscures the website and displays a loading animation.
   Both the page cover and the loading element need to disappear both visually and to any possible interactions. 
 
