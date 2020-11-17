@@ -8,7 +8,7 @@ The majority of this site used flexbox and responsive versions used a combinatio
 ### What was challenged?
 
 Specifically, this website needed to include animations and effects that are typically accomplished by simple JS.
-
+<img align="right" src="https://raw.githubusercontent.com/Dev-kris/OC-Web-Developer-OhMyFood/main/images/site-animations.gif">
 ### Animations
 1. Loading screen upon initial site load/refresh and when navigating to each page.
   This is a proof of concept element that partially obscures the website and displays a loading animation.
@@ -26,7 +26,10 @@ Specifically, this website needed to include animations and effects that are typ
   This effect would move the text within the element and text overflow would be hidden with elipses. 
   This was accomplished using flexbox for the main card and an element with a width of 0 (which changed on :hover).
   The rotating check mark was made using a fontawesome icon with a animated transform rotate(360).
-  
+
+4. Menu items entry effect (float in).
+  Client wanted the menu items to float in upon page loading. This is currently linked to a set delay due to the limitations of css.
+  Effect was achieved using keyframes with a translateY effect. 
   
 ### Live version
 
